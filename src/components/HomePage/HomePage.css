@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@400;800&display=swap");
+
+.appText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.nuKenzie {
+  width: 120.68px;
+  height: 17.53px;
+  text-align: initial;
+  margin-bottom: 20px;
+}
+
+.textCenter {
+  text-align: center;
+  width: 300px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.textSob {
+  text-align: center;
+  width: 260px;
+  height: 26px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.imgCenter > img {
+  margin-top: 100px;
+  height: 193px;
+}
+
+.buttonStart {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  width: 241px;
+  height: 48px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.buttonStart:hover {
+  background: rgba(227, 73, 129, 1);
+  border: 2px solid rgba(227, 73, 129, 1);
+  cursor: pointer;
+}
+
+@media (min-width: 650px) {
+  .appText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100px;
+    margin-left: -290px;
+  }
+
+  .nuKenzie {
+    margin-left: 6px;
+    width: 122.68px;
+    height: 19.53px;
+    text-align: initial;
+    margin-bottom: 20px;
+    text-align: initial;
+  }
+
+  .textCenter {
+    width: 347px;
+    height: 144px;
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    text-align: initial;
+  }
+
+  .textSob {
+    text-align: initial;
+  }
+
+  .imgCenter > img {
+    margin-top: 10px;
+    width: 293px;
+    height: 293px;
+    margin-left: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  .appText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin-left: -450px;
+    margin-right: 20px;
+  }
+
+  .nuKenzie {
+    margin-left: 6px;
+    width: 122.68px;
+    height: 19.53px;
+    text-align: initial;
+    margin-bottom: 20px;
+  }
+
+  .textCenter {
+    width: 347px;
+    height: 144px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: initial;
+    margin-bottom: 20px;
+  }
+
+  .textSob {
+    text-align: initial;
+  }
+
+  .imgCenter > img {
+    margin-left: -80px;
+    width: 593px;
+    height: 593px;
+  }
+}

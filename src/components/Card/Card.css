@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+ul {
+  list-style: none;
+  width: 363px;
+  padding: 0;
+}
+
+.textDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  margin-left: 10px;
+  height: 39px;
+  width: 250px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.type {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+  margin-left: 10px;
+}
+
+.value {
+  margin-top: -24px;
+  margin-left: -10px;
+  width: 102px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+.liDespesa {
+  height: 87px;
+  width: 363px;
+  border-radius: 4px;
+  background: rgba(248, 249, 250, 1);
+  border-left: 4px solid rgba(233, 236, 239, 1);
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.liDespesa:hover {
+  box-shadow: 3px 3px 10px 1px rgb(14, 11, 11);
+}
+
+.liEnter {
+  height: 87px;
+  width: 363px;
+  border-radius: 4px;
+  background: rgba(248, 249, 250, 1);
+  border-left: 4px solid #03b898;
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.liEnter:hover {
+  box-shadow: 3px 3px 10px 1px #03b898;
+}
+
+.btnDelete {
+  margin-top: -24px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: transparent;
+  height: 22px;
+  width: 22px;
+  border-radius: 2.461538553237915px;
+  padding: 0px;
+}
+
+.btnDelete:hover {
+  cursor: pointer;
+}
+
+.btnDeleteDespesa {
+  margin-top: -24px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: transparent;
+  height: 22px;
+  width: 22px;
+  border-radius: 2.461538553237915px;
+  padding: 0px;
+}
+
+.btnDeleteDespesa:hover {
+  cursor: pointer;
+}
+
+.textDescriptionDespesa {
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionDespesa {
+  margin-left: 10px;
+  height: 39px;
+  width: 250px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.typeDespesa {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+  margin-left: 10px;
+}
+
+.valueDespesa {
+  margin-top: -24px;
+  margin-left: -10px;
+  width: 102px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+@media (min-width: 1000px) {
+  ul {
+    width: 560px;
+    padding: 0;
+  }
+
+  .liEnter {
+    height: 87px;
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+  .btnDelete {
+    margin-top: -24px;
+  }
+
+  .liDespesa {
+    height: 87px;
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .descriptionDespesa {
+    height: 39px;
+    width: 337px;
+  }
+
+  .description {
+    width: 337px;
+  }
+
+  .value {
+    margin-top: -24px;
+    width: 102px;
+  }
+}

@@ -1,0 +1,63 @@
+.valuePrice {
+  margin-top: 15px;
+  width: 363px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.priceText {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.total {
+  height: 30px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.totalText {
+  width: 155px;
+  height: 22px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+}
+
+.valueTotal {
+  margin-right: 32px;
+  width: 53px;
+  height: 30px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}
+
+@media (min-width: 1000px) {
+  .valuePrice {
+    height: 96px;
+  }
+
+  .totalText {
+    margin-top: 10px;
+    width: 155px;
+    height: 22px;
+  }
+}

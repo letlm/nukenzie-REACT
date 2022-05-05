@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+form {
+  width: 363px;
+  height: 260px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  width: 314px;
+}
+
+label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+.first > input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 38px;
+  width: 314px;
+}
+
+.seconds {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 314px;
+}
+
+.second > input {
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 38px;
+  width: 128px;
+}
+
+.inputPlace {
+  text-align: end;
+}
+
+.three > label {
+  margin-left: 35px;
+}
+
+.three > select {
+  height: 38px;
+  width: 150px;
+  padding: 0px, 16px, 0px, 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #868e96;
+  margin-left: 35px;
+}
+
+span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+}
+
+.buttonInsert {
+  height: 38px;
+  width: 314px;
+  left: 24.5px;
+  top: 265px;
+  border-radius: 8px;
+  padding: 13px, 20px, 13px, 20px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.buttonInsert:hover {
+  background: rgba(227, 73, 129, 1);
+  border: 2px solid rgba(227, 73, 129, 1);
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  form {
+    height: 351px;
+  }
+
+  .first > input {
+    height: 52.80000305175781px;
+  }
+
+  .second > input {
+    height: 48px;
+  }
+
+  .three > select {
+    height: 48px;
+  }
+
+  .buttonInsert {
+    height: 48px;
+  }
+}
